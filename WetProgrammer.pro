@@ -1,4 +1,4 @@
-update=8/31/2021 11:56:40 AM
+update=8/31/2021 1:17:58 PM
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=wetPage.kicad_wks
-PlotDirectoryName=
+PlotDirectoryName=renders
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
