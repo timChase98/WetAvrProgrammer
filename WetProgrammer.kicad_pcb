@@ -4255,8 +4255,8 @@
   (gr_text "T->\nR<-\nGnd" (at 38.5 -2.25 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "Rev 1.0,  Sep 2021\ngithub.com/timChase98/WetAvrProgrammer\n" (at 3.6068 -2.6924) (layer B.SilkS) (tstamp 61475DB0)
-    (effects (font (size 1 1) (thickness 0.1524)) (justify right mirror))
+  (gr_text "Rev 1.0,  Sep 2021\ngithub.com/timChase98/\nWetAvrProgrammer\n" (at 41 -6.75) (layer B.SilkS) (tstamp 61475DB0)
+    (effects (font (size 1 1) (thickness 0.1524)) (justify left mirror))
   )
   (gr_text "Target\nPower\n" (at 44.831 -19.2405) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.1524)))
@@ -4646,7 +4646,7 @@
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 48.768 1) (xy -1 1) (xy -1 -26) (xy 49 -26)
+        (xy 49 1) (xy -1 1) (xy -1 -26) (xy 49 -26)
       )
     )
     (filled_polygon
