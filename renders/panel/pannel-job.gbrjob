@@ -7,20 +7,20 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.10-1-10_14)"
     },
-    "CreationDate":  "2021-09-21T14:20:29-04:00"
+    "CreationDate":  "2021-09-22T14:39:30-04:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "WetProgrammer",
-      "GUID": "57657450-726f-4677-9261-6d6d65722e6b",
+      "Name": "pannel",
+      "GUID": "70616e6e-656c-42e6-9b69-6361645f7063",
       "Revision": "rev?"
     },
     "Size":
     {
-      "X": 48.050,
-      "Y": 25.050
+      "X": 98.550,
+      "Y": 80.050
     },
     "LayerNumber": 2,
     "BoardThickness":  1.600
@@ -40,47 +40,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "WetProgrammer-F_Cu.gtl",
+      "Path":  "pannel-F_Cu.gtl",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "WetProgrammer-B_Cu.gbl",
+      "Path":  "pannel-B_Cu.gbl",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "WetProgrammer-F_Paste.gtp",
+      "Path":  "pannel-F_Paste.gtp",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "WetProgrammer-B_Paste.gbp",
+      "Path":  "pannel-B_Paste.gbp",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "WetProgrammer-F_SilkS.gto",
+      "Path":  "pannel-F_SilkS.gto",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "WetProgrammer-B_SilkS.gbo",
+      "Path":  "pannel-B_SilkS.gbo",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "WetProgrammer-F_Mask.gts",
+      "Path":  "pannel-F_Mask.gts",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "WetProgrammer-B_Mask.gbs",
+      "Path":  "pannel-B_Mask.gbs",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "WetProgrammer-Edge_Cuts.gm1",
+      "Path":  "pannel-Edge_Cuts.gm1",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
