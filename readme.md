@@ -1,3 +1,3 @@
 # The Wet AVR Programmer
 
-![CI](https://github.com/INTI-CMNB/kicad_ci_test/workflows/CI/badge.svg)
+![CI](https://github.com/timChase98/WetAvrProgrammer/workflows/CI/badge.svg)
