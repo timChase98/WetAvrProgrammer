@@ -1,0 +1,34 @@
+kibot:
+  version: 1
+preflight:
+  run_erc: true
+  run_drc: true
+  check_zone_fills: true
+  ignore_unconnected: false
+
+outputs:
+  - name: 'gerbers'
+    comment: "Gerbers for the board house"
+    type: gerber
+    dir: 'renders/gerbers'
+    options:
+      # generic layer options
+      exclude_edge_layer: true
+      exclude_pads_from_silkscreen: true
+      plot_sheet_reference: false
+      plot_footprint_refs: true
+      plot_footprint_values: true
+      force_plot_invisible_refs_vals: false
+      tent_vias: true
+      line_width: 0.1
+
+      # gerber options
+      use_aux_axis_as_origin: false
+      subtract_mask_from_silk: true
+      use_protel_extensions: True
+      gerber_precision: 4.6
+      create_gerber_job_file: true
+      use_gerber_x2_attributes: true
+      use_gerber_net_attributes: false
+
+    layers: 'selected'
