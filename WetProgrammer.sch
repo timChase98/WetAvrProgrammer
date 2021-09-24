@@ -486,22 +486,22 @@ NoConn ~ 3400 3900
 NoConn ~ 3400 4000
 NoConn ~ 3400 1500
 Wire Wire Line
-	5500 3000 5500 3050
+	5450 3000 5450 3050
 $Comp
 L power:GND #PWR?
 U 1 1 612F97C3
-P 5500 4000
+P 5450 4000
 AR Path="/612E47B1/612F97C3" Ref="#PWR?"  Part="1" 
 AR Path="/612F97C3" Ref="#PWR017"  Part="1" 
-F 0 "#PWR017" H 5500 3750 50  0001 C CNN
-F 1 "GND" H 5505 3827 50  0000 C CNN
-F 2 "" H 5500 4000 50  0001 C CNN
-F 3 "" H 5500 4000 50  0001 C CNN
-	1    5500 4000
+F 0 "#PWR017" H 5450 3750 50  0001 C CNN
+F 1 "GND" H 5455 3827 50  0000 C CNN
+F 2 "" H 5450 4000 50  0001 C CNN
+F 3 "" H 5450 4000 50  0001 C CNN
+	1    5450 4000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5500 4000 5500 3950
+	5450 4000 5450 3950
 $Comp
 L power:VCC #PWR015
 U 1 1 612FBECB
@@ -558,66 +558,66 @@ F 3 "" H 4350 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 3350 6500 3350
+	6650 3350 6450 3350
 Wire Wire Line
-	6500 3450 6700 3450
+	6450 3450 6650 3450
 Wire Wire Line
-	6500 3550 6700 3550
-Text Label 6700 3350 2    50   ~ 0
+	6450 3550 6650 3550
+Text Label 6650 3350 2    50   ~ 0
 MISO
-Text Label 6700 3450 2    50   ~ 0
+Text Label 6650 3450 2    50   ~ 0
 MOSI
-Text Label 6700 3550 2    50   ~ 0
+Text Label 6650 3550 2    50   ~ 0
 SCK
 $Comp
 L Device:R R?
 U 1 1 61304480
-P 6350 3350
+P 6300 3350
 AR Path="/612E47B1/61304480" Ref="R?"  Part="1" 
 AR Path="/61304480" Ref="R7"  Part="1" 
-F 0 "R7" V 6300 3550 50  0000 C CNN
-F 1 "330" V 6350 3350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 6280 3350 50  0001 C CNN
-F 3 "~" H 6350 3350 50  0001 C CNN
-	1    6350 3350
+F 0 "R7" V 6250 3550 50  0000 C CNN
+F 1 "330" V 6300 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6230 3350 50  0001 C CNN
+F 3 "~" H 6300 3350 50  0001 C CNN
+	1    6300 3350
 	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 61304486
-P 6350 3450
+P 6300 3450
 AR Path="/612E47B1/61304486" Ref="R?"  Part="1" 
 AR Path="/61304486" Ref="R8"  Part="1" 
-F 0 "R8" V 6300 3650 50  0000 C CNN
-F 1 "330" V 6350 3450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 6280 3450 50  0001 C CNN
-F 3 "~" H 6350 3450 50  0001 C CNN
-	1    6350 3450
+F 0 "R8" V 6250 3650 50  0000 C CNN
+F 1 "330" V 6300 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6230 3450 50  0001 C CNN
+F 3 "~" H 6300 3450 50  0001 C CNN
+	1    6300 3450
 	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 6130448C
-P 6350 3550
+P 6300 3550
 AR Path="/612E47B1/6130448C" Ref="R?"  Part="1" 
 AR Path="/6130448C" Ref="R9"  Part="1" 
-F 0 "R9" V 6300 3750 50  0000 C CNN
-F 1 "330" V 6350 3550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 6280 3550 50  0001 C CNN
-F 3 "~" H 6350 3550 50  0001 C CNN
-	1    6350 3550
+F 0 "R9" V 6250 3750 50  0000 C CNN
+F 1 "330" V 6300 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6230 3550 50  0001 C CNN
+F 3 "~" H 6300 3550 50  0001 C CNN
+	1    6300 3550
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	6200 3550 6000 3550
+	6150 3550 5950 3550
 Wire Wire Line
-	6200 3450 6000 3450
+	6150 3450 5950 3450
 Wire Wire Line
-	6200 3350 6000 3350
-Text Label 6250 3650 2    50   ~ 0
+	6150 3350 5950 3350
+Text Label 6200 3650 2    50   ~ 0
 DutRst
 Wire Wire Line
-	6000 3650 6250 3650
+	5950 3650 6200 3650
 Text Label 3750 3100 2    50   ~ 0
 DutRst
 Text Label 4200 1900 2    50   ~ 0
@@ -759,8 +759,8 @@ Wire Wire Line
 Text Label 8750 2250 0    50   ~ 0
 VProg
 Wire Wire Line
-	5500 3000 5750 3000
-Text Label 5750 3000 2    50   ~ 0
+	5450 3000 5700 3000
+Text Label 5700 3000 2    50   ~ 0
 VProg
 Text Notes 8900 700  0    50   ~ 0
 Voltage Select Jumper
@@ -770,7 +770,7 @@ Text Notes 8050 850  0    50   ~ 0
 3V3 Regulator
 Text Notes 5600 1250 0    50   ~ 0
 10 Pin .05" \nAVR ICE \nConnector\nFor 32u4
-Text Notes 5900 3150 0    50   ~ 0
+Text Notes 5850 3150 0    50   ~ 0
 6 Pin .1" \nAVR ICE \nConnector\nFor DUT
 $Comp
 L Device:Polyfuse F1
@@ -1183,14 +1183,14 @@ Wire Wire Line
 $Comp
 L Connector:AVR-ISP-6 J?
 U 1 1 612F5B59
-P 5600 3550
+P 5550 3550
 AR Path="/612E47B1/612F5B59" Ref="J?"  Part="1" 
 AR Path="/612F5B59" Ref="J2"  Part="1" 
-F 0 "J2" H 5271 3600 50  0000 R CNN
-F 1 "AVR-ISP-6" H 5271 3555 50  0001 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 5350 3600 50  0001 C CNN
-F 3 " ~" H 4325 3000 50  0001 C CNN
-	1    5600 3550
+F 0 "J2" H 5221 3600 50  0000 R CNN
+F 1 "AVR-ISP-6" H 5221 3555 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 5300 3600 50  0001 C CNN
+F 3 " ~" H 4275 3000 50  0001 C CNN
+	1    5550 3550
 	1    0    0    -1  
 $EndComp
 Text Label 6700 1450 2    50   ~ 0
