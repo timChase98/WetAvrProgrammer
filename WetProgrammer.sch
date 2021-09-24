@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "WET AVR Programmer"
 Date "2021-09-15"
-Rev ""
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
